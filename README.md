@@ -47,8 +47,7 @@ Parts list
         that fit this description. Determine the output requirements for
         your application and select the MOSFET accordingly.
 *   2 x 6-pin header (100-mil centers)
-*   4 x 2-position screw terminal block
-    *   e.g. TE 1776493-2
+*   4 x 2-position screw terminal block, e.g. TE 1776493-2
     *   Or: 2 x 4-position screw terminal block
 *   1 x 0.1µF capacitor (0603)
 
