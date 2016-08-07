@@ -26,8 +26,9 @@ Features
     of three at one end suitable for 14AWG wire, and a 3x2 arrangement
     at 0.1in pitch on the other end which can be used for header pins,
     PCB-mount quick-disconnect tabs, or arbitrary other through-hole
-    components, or even enother screw terminal (this blocks two of the
-    mounting holes).
+    components, or even another screw terminal.
+    *   If the corner mounting holes will be used, make sure not to
+        install hardware that will obstruct the holes or screw heads.
 *   The host-side 6-pin header provides power, serial, and blanking
     inputs to the board, while the compatible guest-side 6-pin header
     provides serial outputs and passed-through power and blanking
@@ -40,9 +41,14 @@ Parts list
 ----------
 
 *   1 x 74HC595PW (TSSOP-16)
-*   8 x N-channel MOSFET (SOT-32, pins in GSD order), eg BSS806N
+*   8 x N-channel MOSFET (SOT-23, pins in GSD order) e.g. BSS806N,
+    2N7002P
+    *   Many different MOSFETs with distinct capabilities are available
+        that fit this description. Determine the output requirements for
+        your application and select the MOSFET accordingly.
 *   2 x 6-pin header (100-mil centers)
-*   4 x 2-position screw terminal block, eg TE 1776493-2
+*   4 x 2-position screw terminal block
+    *   e.g. TE 1776493-2
     *   Or: 2 x 4-position screw terminal block
 *   1 x 0.1µF capacitor (0603)
 
@@ -53,8 +59,9 @@ Written in 2016 by Peter S. May
 
 To the extent possible under law, the author(s) have dedicated all
 copyright and related and neighboring rights to this design data to the
-public domain worldwide. This data is distributed without any warranty.
+public domain worldwide. This design data is distributed without any
+warranty.
 
 You should have received a copy of the CC0 Public Domain Dedication
-along with this data. If not, see
+along with this design data. If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.
